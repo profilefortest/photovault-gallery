@@ -4,10 +4,11 @@
   "description": "A modern, responsive image gallery with filtering and search functionality",
   "main": "index.html",
   "scripts": {
-    "start": "npx live-server --port=3000 --open",
-    "dev": "npx live-server --port=3000 --open",
-    "build": "echo \"Static files ready for deployment\"",
-    "test": "echo \"No tests specified\""
+    "start": "npx live-server --port=8080 --host=localhost",
+    "dev": "npx live-server --port=8080 --host=localhost",
+    "build": "echo Static files ready for deployment",
+    "test": "echo No tests specified",
+    "serve": "npx live-server --port=8080 --host=localhost --no-browser"
   },
   "keywords": ["image-gallery", "photography", "responsive", "modern", "html", "css", "javascript"],
   "author": "profilefortest",
