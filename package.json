@@ -1,0 +1,26 @@
+{
+  "name": "photovault-gallery",
+  "version": "1.0.0",
+  "description": "A modern, responsive image gallery with filtering and search functionality",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000 --open",
+    "dev": "npx live-server --port=3000 --open",
+    "build": "echo \"Static files ready for deployment\"",
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": ["image-gallery", "photography", "responsive", "modern", "html", "css", "javascript"],
+  "author": "profilefortest",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/server-github": "^2025.4.8"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/profilefortest/photovault-gallery.git"
+  },
+  "homepage": "https://profilefortest.github.io/photovault-gallery"
+}
