@@ -24,7 +24,7 @@ Visit the live demo: [PhotoVault Gallery](https://profilefortest.github.io/photo
 - Font Awesome Icons
 - Google Fonts (Poppins)
 
-## 📦 Installation
+## 📦 Installation & Running Locally
 
 1. Clone the repository:
 ```bash
@@ -46,7 +46,9 @@ npm install
 npm start
 ```
 
-The gallery will open in your browser at `http://localhost:3000`
+The gallery will open in your browser at `http://localhost:8080`
+
+**For PowerShell users:** The commands work perfectly in PowerShell without needing `&&` operators.
 
 ## 🔧 Customization
 
